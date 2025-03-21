@@ -40,7 +40,7 @@ A full-stack financial management platform that helps users **track financial as
 ✅ **API Integration:**  
 - **Plaid:** Real-time financial data sync  
 - **Twilio:** SMS alerts and notifications  
-- **OpenAI:** AI-driven insights  
+- **Gemini AI:** AI-driven insights  
 
 ✅ **Secure Authentication:**  
 - OTP-based login  
@@ -52,45 +52,48 @@ A full-stack financial management platform that helps users **track financial as
 
 ### 1. **Clone the Repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/PrathamS369/fin-dash.git
 cd fin-dash
+```
 
 2. Install Dependencies
 🛠️ Backend Dependencies
-bash
+```bash
 Copy code
 cd server
 npm install express cors dotenv axios plaid twilio openai pg
+```
 ⚛️ Frontend Dependencies
-bash
+```bash
 Copy code
 cd ../client
 npm install react react-dom tailwindcss papaparse axios
 npm install vite --save-dev
+```
 3. Environment Variables
 Create a .env file in the server directory with the following keys:
 
-ini
+```bash
 Copy code
 PLAID_CLIENT_ID=your_plaid_client_id  
 PLAID_SECRET=your_plaid_secret  
-TWILIO_ACCOUNT_SID=your_twilio_sid  
-TWILIO_AUTH_TOKEN=your_twilio_auth_token  
-OPENAI_API_KEY=your_openai_key  
-DATABASE_URL=your_postgres_url  
+GEMINI_API_KEY=your_Gemini_API_key  
+```
 4. Run the Application
 ✅ Start the Backend:
 
-bash
+```bash
 Copy code
 cd server
 npm run dev
+```
 ✅ Start the Frontend:
 
-bash
+```bash
 Copy code
 cd ../client
 npm run dev
+```
 🌟 Screenshots
 📊 Dashboard Overview
 
@@ -99,7 +102,7 @@ npm run dev
 📈 Expense Breakdown
 
 📚 Folder Structure
-bash
+```bash
 Copy code
 /fin-dash
  ├── /client               # Frontend (React + Vite)
@@ -121,4 +124,5 @@ Copy code
  │
  ├── README.md
  ├── .gitignore
- └── images                # Screenshots for README
+ └── Screenshots          # Screenshots for README
+```
