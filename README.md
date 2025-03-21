@@ -59,13 +59,11 @@ cd fin-dash
 2. Install Dependencies
 🛠️ Backend Dependencies
 ```bash
-Copy code
 cd server
 npm install express cors dotenv axios plaid twilio openai pg
 ```
 ⚛️ Frontend Dependencies
 ```bash
-Copy code
 cd ../client
 npm install react react-dom tailwindcss papaparse axios
 npm install vite --save-dev
@@ -74,7 +72,6 @@ npm install vite --save-dev
 Create a .env file in the server directory with the following keys:
 
 ```bash
-Copy code
 PLAID_CLIENT_ID=your_plaid_client_id  
 PLAID_SECRET=your_plaid_secret  
 GEMINI_API_KEY=your_Gemini_API_key  
@@ -83,14 +80,12 @@ GEMINI_API_KEY=your_Gemini_API_key
 ✅ Start the Backend:
 
 ```bash
-Copy code
 cd server
 npm run dev
 ```
 ✅ Start the Frontend:
 
 ```bash
-Copy code
 cd ../client
 npm run dev
 ```
@@ -103,7 +98,6 @@ npm run dev
 
 📚 Folder Structure
 ```bash
-Copy code
 /fin-dash
  ├── /client               # Frontend (React + Vite)
  │    ├── /src
