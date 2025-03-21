@@ -27,7 +27,7 @@ const AIIntegration = () => {
 
     try {
       // Replace with your Gemini API key
-      const apiKey = "AIzaSyAIFeTusRedpVabSvrWVJVDuGe0cqez2gM"; // Replace with your actual Gemini API key
+      const apiKey = "*******************"; // Replace with your actual Gemini API key
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
       // Prepare the request payload with structured format instruction
