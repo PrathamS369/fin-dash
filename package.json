@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "googleapis": "^146.0.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "papaparse": "^5.5.2",
+    "recharts": "^2.15.1"
+  }
+}
